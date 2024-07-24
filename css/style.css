@@ -37,8 +37,19 @@ header {
 }
 
 /* Style for the contact section */
-.contact .bg-warning {
+.contact {
     color: #212529;
     text-align: center;
     padding: 80px 0;
+    background: none;
+}
+
+
+
+/* Style for the footer section */
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
 }
