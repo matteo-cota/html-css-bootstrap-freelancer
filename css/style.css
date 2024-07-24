@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style header */
+header {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Style for the jumbotron section */
+.jumbotron {
+    background-color: #28a745;
+    color: white;
+    text-align: center;
+    padding: 80px 0;
+}
+
+/* Style for the about section */
+.about {
+    background-color: #f8f9fa;
+    color: #212529;
+    text-align: center;
+    padding: 80px 0;
+}
+
+/* Style for the portfolio items */
+.portfolio .bg-info {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style for the contact section */
+.contact .bg-warning {
+    color: #212529;
+    text-align: center;
+    padding: 80px 0;
+}
