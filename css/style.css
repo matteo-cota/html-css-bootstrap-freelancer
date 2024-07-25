@@ -23,6 +23,11 @@ header {
     width: 20%;
 }
 
+/* Portfolio Item */
+.img {
+    border-radius: 10px;
+}
+
 /* Style for the about section */
 .about {
     background-color: #f8f9fa;
