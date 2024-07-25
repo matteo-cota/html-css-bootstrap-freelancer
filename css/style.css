@@ -9,7 +9,6 @@ header {
     background-color: #007bff;
     color: white;
     text-align: center;
-    padding: 20px 0;
 }
 
 /* Style for the jumbotron section */
@@ -18,17 +17,63 @@ header {
     width: 20%;
 }
 
+
 /* Portfolio Item */
 .img {
     border-radius: 10px;
 }
 
+.masthead {
+    background-color: #f8f9fa;
+    color: #ffffff;
+    text-align: center;
+    padding: 80px 0;
+}
+
+.masthead .divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.masthead .divider .line {
+    flex: 1;
+    width: 90px;
+    height: 1px;
+    background-color: #ffffff;
+    margin: 0 10px;
+}
+
+.masthead .divider .fa-star {
+    color: #ffffff;
+}
+
 /* Style for the about section */
 .about {
     background-color: #f8f9fa;
-    color: #212529;
+    color: #ffffff;
     text-align: center;
     padding: 80px 0;
+}
+
+.about .divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.about .divider .line {
+    flex: 1;
+    width: 5px;
+    height: 1px;
+    background-color: #ffffff;
+    margin: 0 10px;
+}
+
+.about .divider .fa-star {
+    color: #ffffff;
 }
 
 /* Style for the portfolio items */
@@ -39,6 +84,27 @@ header {
     align-items: center;
 }
 
+
+.portfolio .divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.portfolio .divider .line {
+    flex: 1;
+    width: 5px;
+    height: 1px;
+    background-color: #000000;
+    margin: 0 10px;
+}
+
+.portfolio.divider .fa-star {
+    color: #000000;
+}
+
+
 /* Style for the contact section */
 .contact {
     color: #212529;
@@ -47,11 +113,35 @@ header {
 }
 
 
+.contact .divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.contact .divider .line {
+    flex: 1;
+    width: 20%;
+    height: 1px;
+    background-color: #000000;
+    margin: 0 10px;
+}
+
+.contact .divider .fa-star {
+    color: #000000;
+}
+
+
 
 /* Style for the footer section */
 footer {
-    background-color: #343a40;
+    background-color: #22486e;
     color: white;
     text-align: center;
-    padding: 20px 0;
+}
+
+.copyright {
+    background-color: rgb(20, 41, 61);
+    color: white;
 }
